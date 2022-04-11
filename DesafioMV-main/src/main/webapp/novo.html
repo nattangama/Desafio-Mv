@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="imagens/java-log-icon.png">
+<link rel="stylesheet" href="style.css">
+<title>Desafio Mv</title>
+</head>
+<body>
+
+	<h1>Criar novo colaborador</h1>
+	<form name="frmColaborador" action ="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cpf" placeholder="CPF" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="comida" placeholder="Comida"
+					class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick ="validar()">
+	</form>
+    <script src="scripts/validador.js"></script>
+</body>
+</html>
